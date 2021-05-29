@@ -1,0 +1,79 @@
+<div class="container">
+
+  <h1 class="my-4">Components</h1>
+  <hr>
+
+  <div class="row">
+
+    <div class="col-6">
+
+      <h4>Buttons</h4>
+
+      <div class="row">
+        <div class="col">
+          <lou-button type="filled" size="sm" estilo="primary">
+            <lou-icon icon="download" start></lou-icon>
+            Login
+          </lou-button>
+        </div>
+
+        <div class="col">
+          <lou-button type="outline" size="sm" estilo="primary">
+            <lou-icon icon="download" start></lou-icon>
+            Login
+          </lou-button>
+        </div>
+
+        <div class="col">
+          <lou-button type="filled" size="sm" estilo="primary" [disabled]="true">
+            <lou-icon icon="download" start></lou-icon>
+            Login
+          </lou-button>
+        </div>
+
+        <div class="col">
+          <lou-button type="filled" size="sm" estilo="link">
+            <lou-icon icon="download" start></lou-icon>
+            Login
+          </lou-button>
+        </div>
+
+        <div class="col">
+          <lou-button type="filled" size="sm" estilo="primary">
+            <lou-icon icon="download" end></lou-icon>
+            Login
+          </lou-button>
+        </div>
+
+        <div class="col my-3">
+          <lou-button type="filled" size="lg" estilo="primary">
+            <lou-icon icon="download" start></lou-icon>
+            Login
+          </lou-button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-6">
+      <h4>Select</h4>
+      <div class="col my-3">
+        <lou-select label="Instructor" [lista]="personas" state="default"></lou-select>
+      </div>
+
+      <div class="col my-3">
+        <lou-select label="Instructor" [lista]="personas" state="default" [disabled]="true"></lou-select>
+      </div>
+
+      <div class="col my-3">
+        <lou-select label="Instructor" [lista]="personas" state="valid"></lou-select>
+      </div>
+
+      <div class="col my-3">
+        <lou-select label="Instructor" [lista]="personas" state="error"></lou-select>
+      </div>
+    </div>
+
+  </div>
+</div>
+
