@@ -1,0 +1,15 @@
+<footer>
+
+  <h5>{{title}}</h5>
+
+  <div class="enlaces">
+    <ul>
+      <ng-container *ngFor="let item of links">
+        <li>
+          <a class="text-white" [routerLink]="item.url">{{item.name}}</a>
+        </li>
+      </ng-container>
+    </ul>
+  </div>
+
+</footer>

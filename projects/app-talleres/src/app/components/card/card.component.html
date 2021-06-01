@@ -1,0 +1,27 @@
+<ng-container *ngFor="let item of data">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" [src]="item.img" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{item.nombre}}</h5>
+
+      <p class="card-text">
+        <lou-icon icon="Alarm"></lou-icon>
+        Día: {{item.fecha}}
+      </p>
+
+      <p class="card-text">
+        <lou-icon icon="Calendar"></lou-icon>
+        Hora: {{item.hora}}
+      </p>
+
+      <p class="card-text">
+        <lou-icon icon="Person"></lou-icon>
+        Instructor: {{item.instructor.nombre}}
+      </p>
+
+      <lou-button>Información</lou-button>
+
+    </div>
+  </div>
+</ng-container>
+

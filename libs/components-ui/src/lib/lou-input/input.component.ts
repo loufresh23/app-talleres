@@ -1,18 +1,18 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {state} from "@lou/components-ui/types/componentsUI";
+import { state } from '../types/componentsUI';
 
 @Component({
-  selector: 'lou-select',
-  templateUrl: './select.component.html',
-  styleUrls: ['./select.component.css']
+  selector: 'lou-input',
+  templateUrl: './input.component.html',
+  styleUrls: ['./input.component.css']
 })
-export class SelectComponent implements OnInit {
+export class InputComponent implements OnInit {
 
   @Input() label: string = '';
   @Input() state: state = 'default';
   @Input() disabled: boolean = false;
-  @Input() lista: any[] = [];
   @Input() mensaje: string = '';
+  @Input() placeholder: string = '';
 
   constructor() { }
 
