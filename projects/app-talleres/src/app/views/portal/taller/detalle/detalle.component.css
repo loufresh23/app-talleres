@@ -1,0 +1,17 @@
+p {
+  font-weight: 500;
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  z-index: 2;
+}
+

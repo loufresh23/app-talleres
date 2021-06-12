@@ -1,0 +1,16 @@
+<lou-header
+  [title]="title"
+  imagen="https://bit.ly/3p7eRdb"
+  class="text-white">
+
+  <a routerLink="iniciar-sesion">
+    <lou-icon icon="user"></lou-icon>
+    Iniciar Sesión
+  </a>
+</lou-header>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+<lou-footer [title]="title" [links]="enlaces"></lou-footer>

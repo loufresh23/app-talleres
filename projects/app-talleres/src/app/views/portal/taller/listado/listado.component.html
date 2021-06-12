@@ -1,0 +1,50 @@
+<div class="centrado" *ngIf="loader">
+  <app-flower-spinner
+    [animationDuration]="2500"
+    [size]="70"
+    [color]="'#ff1d5e'"
+  ></app-flower-spinner>
+</div>
+
+<div *ngIf="!loader">
+  <h1>Listado de talleres</h1>
+  <hr class="mb-5">
+
+  <form [formGroup]="formulario" (change)="getTalleres()">
+    <div class="row my-4">
+
+      <div class="col">
+        <lou-input label="Fecha de inicio" formControlName="inicio" placeholder="dd/mm/aaaa" tipo="date"></lou-input>
+      </div>
+
+      <div class="col">
+        <lou-input label="Fecha de fin" formControlName="fin" placeholder="dd/mm/aaaa" tipo="date"></lou-input>
+      </div>
+
+      <div class="col-1 ma">
+        <lou-icon icon="eraser" (click)="reset()">
+          <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span>
+        </lou-icon>
+      </div>
+
+    </div>
+  </form>
+
+  <div class="row col my-4">
+    <div class="mr-2">
+      <lou-button>Hoy</lou-button>
+    </div>
+
+    <div class="mr-2">
+      <lou-button>Esta semana</lou-button>
+    </div>
+
+    <div class="mr-2">
+      <lou-button>Este mes</lou-button>
+    </div>
+  </div>
+
+  <div class="mb-4">
+    <app-card class="row" [data]="talleres"></app-card>
+  </div>
+</div>

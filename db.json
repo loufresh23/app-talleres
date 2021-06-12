@@ -1,0 +1,132 @@
+{
+  "talleres": [
+    {
+      "id": "angular-http",
+      "nombre": "Angular HTTP",
+      "descripcion": "En esta taller aprenderas algo de Angular",
+      "img": "https://i.ibb.co/1dHX6Dp/af-post-taller-seleniums.png",
+      "img2": "https://bit.ly/3iiw6H3",
+      "dia": "2021-06-29",
+      "hora": "20:00 hrs",
+      "instructor": {"id": 1, "nombre": "Juan Carlos"},
+      "temario": "https://bit.ly/3ci2Axp"
+    },
+    {
+      "id": "android-jetpack",
+      "nombre": "Componente de Navegación en Android Jetpack",
+      "descripcion": "El componente de navegación de Android Jetpack nos ayuda a implementar la navegación, desde simples clics en botones hasta patrones más complejos.",
+      "img": "https://i.ibb.co/r279mJF/af-post-taller-android.png",
+      "img2": "https://miro.medium.com/max/5120/1*0JT73QTXPrn98-mJwsUg5A.jpeg",
+      "dia": "2021-07-05",
+      "hora": "21:00 hrs",
+      "instructor": {"id": 1, "nombre": "Juan Carlos"},
+      "temario": "https://bit.ly/3ci2Axp"
+    },
+    {
+      "id": "cultura-devops",
+      "nombre": "Cultura y Prácticas de DevOps",
+      "descripcion": "DevOps permite que los roles que antes estaban aislados (desarrollo, operaciones de TI, ingeniería de la calidad y seguridad) ",
+      "img": "https://i.ibb.co/dP6J0Xw/af-post-taller-selenium-1.png",
+      "img2": "https://s27389.pcdn.co/wp-content/uploads/2019/05/ultimate-guide-devops-e1558342120973-931x440.jpg",
+      "dia": "2021-07-15",
+      "hora": "20:00 hrs",
+      "instructor": {"id": 2, "nombre": "Julio Ortiz"},
+      "temario": "https://bit.ly/3ci2Axp"
+    },
+    {
+      "id": "optimizando-tablas",
+      "nombre": "Optimizando operaciones usando tablas particionadas",
+      "descripcion": "Las tablas particionadas son objetos de base de datos SQL Server que son usados en grandes almacenes de datos como el data warehouse.",
+      "img": "https://i.ibb.co/sR07KKT/af-post-taller-plsql.png",
+      "img2": "https://www.iperiusbackup.net/wp-content/uploads/2016/05/1768.sql_logo.png",
+      "dia": "2021-07-26",
+      "hora": "21:00 hrs",
+      "instructor": {"id": 2, "nombre": "Julio Ortiz"},
+      "temario": "https://bit.ly/3ci2Axp"
+    },
+    {
+      "id": "angular-interceptores",
+      "nombre": "Angular Interceptores",
+      "descripcion": "En este taller aprenderemos algunas utilidades que se les puede dar a los Interceptores en Angular como agregar una URL base, cabeceras globales hasta un manejador global de errores utilizando RxJS.",
+      "img": "https://i.ibb.co/9wrT2GM/af-post-taller-angular-2.png",
+      "img2": "https://miro.medium.com/max/2800/1*QN4mRDGHkBlZUvdYHNxePA.jpeg",
+      "dia": "2021-07-28",
+      "hora": "21:00 hrs",
+      "instructor": {"id": 1, "nombre": "Juan Carlos"},
+      "temario": "https://bit.ly/3ci2Axp"
+    },
+    {
+      "id": "apps-spring",
+      "nombre": "Aplicaciones Web con Spring Security",
+      "descripcion": "Implementa el proceso de autenticación y utilización en aplicaciones web con Spring Security, se desarrollará un caso práctico.",
+      "img": "https://i.ibb.co/dm3GJGW/af-post-taller-plsql2.png",
+      "img2": "https://soshace.com/wp-content/uploads/2020/12/879-1.png",
+      "dia": "2021-08-02",
+      "hora": "20:00 hrs",
+      "instructor": {"id": 3, "nombre": "Carmen Perez"},
+      "temario": "https://bit.ly/3ci2Axp"
+    },
+    {
+      "id": "spring-thymeleaf",
+      "nombre": "Aplicaciones Web con Spring Boot y Thymeleaf",
+      "descripcion": "Thymeleaf es el template recomendado por Pivotal para el desarrollo de aplicaciones web. En este taller aprende cómo integrar Spring MVC, Thymeleaf , Bootstrap y otras tecnologías relacionadas.\n\n",
+      "img": "https://i.ibb.co/4VJxggH/iconoph.png",
+      "img2": "https://springhow.com/wp-content/uploads/2021/02/spring-boot-thymeleaf-database.png",
+      "dia": "2021-08-05",
+      "hora": "20:00 hrs",
+      "instructor": {"id": 3, "nombre": "Carmen Perez"},
+      "temario": "https://bit.ly/3ci2Axp"
+    },
+    {
+      "id": "infraestructura-ec2-vpc",
+      "nombre": "Gestión de Infraestructura y redes con EC2 y VPC",
+      "descripcion": "Configura y crea instancias con EC2 considerando reglas de grupos de seguridad, creación de red personalizada con VPC para lanzar recursos de AWS en una red virtual aislada de forma lógica.",
+      "img": "https://i.ibb.co/7yccCDG/af-post-taller-aws-1.png",
+      "img2": "https://www.easydeploy.io/blog/wp-content/uploads/2019/08/launching-ec2-instance-and-aurora-rds-instance-with-default-vpc-and-subnet-using-terraform.png",
+      "dia": "2021-08-10",
+      "hora": "21:00 hrs",
+      "instructor": {"id": 3, "nombre": "Carmen Perez"},
+      "temario": "https://bit.ly/3ci2Axp"
+    },
+    {
+      "id": "generando-extend-reports",
+      "nombre": "Generando reportes con Extend Reports",
+      "descripcion": "El siguiente paso después de la ejecución de las pruebas, es la generación de reportes paso a paso, con evidencias como capturas de pantallas (screenshots) por cada estado de las pruebas ejecutadas",
+      "img": "https://i.ibb.co/nRRCrGn/af-post-taller-java-2.png",
+      "img2": "https://www.rapidvaluesolutions.com/wp-content/uploads/2020/04/Blog-Image.png",
+      "dia": "2021-08-17",
+      "hora": "20:00 hrs",
+      "instructor": {"id": 1, "nombre": "Juan Carlos"},
+      "temario": "https://bit.ly/3ci2Axp"
+    },
+    {
+      "id": "simplificando-tareas-oracle",
+      "nombre": "Simplificación de tareas de administración en Oracle 12c, 18c y 19c",
+      "descripcion": "Homologar la base de datos desarrollo o test con la data de producción ya sea para pruebas del ciclo de desarrollo de aplicaciones, para instalación de un parche o fix, para reproducir el error a fin de continuar con la atención de un service request de oracle, o finalmente, para hacer pruebas de upgrade",
+      "img": "https://i.ibb.co/nMYrTt4/icono-2.png",
+      "img2": "https://www.e-gain.co.in/wp-content/uploads/2020/02/oracle.jpg",
+      "dia": "2021-08-26",
+      "hora": "21:00 hrs",
+      "instructor": {"id": 4, "nombre": "Luis Fernando"},
+      "temario": "https://bit.ly/3ci2Axp"
+    }
+  ],
+  "instructores" : [
+    {
+      "id": 1,
+      "nombre": "Juan Carlos"
+    },
+    {
+      "id" : 2,
+      "nombre": "Julio Ortiz"
+    },
+    {
+      "id" : 3,
+      "nombre": "Carmen Perez"
+    },
+    {
+      "id" : 4,
+      "nombre": "Luis Fernando"
+    }
+  ]
+}

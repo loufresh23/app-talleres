@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?6p6810');
-  src:  url('fonts/icomoon.eot?6p6810#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?6p6810') format('truetype'),
-    url('fonts/icomoon.woff?6p6810') format('woff'),
-    url('fonts/icomoon.svg?6p6810#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?uuy1of');
+  src:  url('fonts/icomoon.eot?uuy1of#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?uuy1of') format('truetype'),
+    url('fonts/icomoon.woff?uuy1of') format('woff'),
+    url('fonts/icomoon.svg?uuy1of#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,25 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-eraser .path1:before {
+  content: "\e908";
+  color: rgb(38, 166, 209);
+}
+.icon-eraser .path2:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(226, 87, 76);
+}
+.icon-eraser .path3:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(203, 78, 68);
+}
+.icon-eraser .path4:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(234, 229, 228);
+}
 .icon-left-arrow:before {
   content: "\e903";
 }

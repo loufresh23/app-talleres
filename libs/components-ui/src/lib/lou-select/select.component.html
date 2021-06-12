@@ -1,7 +1,16 @@
 <fieldset [disabled]="disabled">
   <label>{{label}}</label>
-  <select class="form-control is-{{estado}}">
-    <option *ngFor="let item of lista">{{ item.nombre}}</option>
+  <select
+    class="form-control is-{{estado}}"
+    [(ngModel)]="value"
+    (ngModelChange)="onChange(value)"
+    (blur)="onTouched()" >
+    <option [value]="null">Todos</option>
+    <option
+      *ngFor="let item of lista"
+      [value]="item.id">
+      {{ item.nombre}}
+    </option>
   </select>
   <small class="{{estado}}-feedback">
     {{mensaje}}

@@ -1,0 +1,32 @@
+<lou-header
+  [title]="title"
+  imagen="https://bit.ly/3p7eRdb"
+  class="text-white">
+</lou-header>
+
+<div class="contenido">
+  <div class="contenedor">
+    <img class="img" src="https://bit.ly/2Rrr6VC" alt="">
+
+    <div class="form">
+      <lou-button estilo="link" routerLink="/">
+        <lou-icon icon="left-arrow"></lou-icon>
+        Volver
+      </lou-button>
+
+      <h3>Iniciar sesión</h3>
+      <div class="imputs mt-4">
+        <lou-input label="Usuario"></lou-input>
+        <lou-input label="Clave"></lou-input>
+        <div class="opciones">
+          <lou-button estilo="link">Olvidé clave</lou-button>
+          <lou-button estilo="link">Registrarme</lou-button>
+        </div>
+      </div>
+      <lou-button class="boton" size="lg" routerLink="/talleres">Ingresar</lou-button>
+    </div>
+
+  </div>
+</div>
+
+<lou-footer [title]="title" [links]="enlaces"></lou-footer>

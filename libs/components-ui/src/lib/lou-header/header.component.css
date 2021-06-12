@@ -1,1 +1,9 @@
 @import "../../lib/assets/icons.css";
+
+:host {
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 2;
+  opacity: 0.95;
+}
